@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dark theme 1`] = `
+<pre
+  className="language-jsx sc-bwzfXH dbofpk"
+>
+  <code>
+    let i = 3
+  </code>
+</pre>
+`;
+
+exports[`inline render 1`] = `
+<code
+  className="language-jsx sc-bdVaJa jwhKeD"
+>
+  let i = 3
+</code>
+`;
+
+exports[`normal render 1`] = `
+<pre
+  className="language-jsx sc-bwzfXH eHSmvX"
+>
+  <code>
+    let i = 3
+  </code>
+</pre>
+`;
