@@ -116,7 +116,7 @@ export function InlineCode({lang = "jsx", render, theme="light"}: InlineCodeProp
 
   useEffect(() => {
     Prism.highlightAll();
-  });
+  }, []);
 
   return (
     <StyledCode className={strLang} theme={theme}>{render}</StyledCode>

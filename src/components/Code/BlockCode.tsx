@@ -115,7 +115,7 @@ export function BlockCode({lang = "jsx", render, theme="light" }: BlockCodeProps
 
   useEffect(() => {
     Prism.highlightAll();
-  });
+  }, []);
 
   return (
     <StyledPre className={strLang} theme={theme}>
