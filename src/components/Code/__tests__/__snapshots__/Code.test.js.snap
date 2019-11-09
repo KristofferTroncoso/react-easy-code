@@ -2,7 +2,7 @@
 
 exports[`dark theme 1`] = `
 <pre
-  className="language-jsx sc-bwzfXH dbofpk"
+  className="sc-bwzfXH dbofpk language-jsx"
 >
   <code>
     let i = 3
@@ -12,7 +12,7 @@ exports[`dark theme 1`] = `
 
 exports[`inline render 1`] = `
 <code
-  className="language-jsx sc-bdVaJa jwhKeD"
+  className="sc-bdVaJa jwhKeD language-jsx"
 >
   let i = 3
 </code>
@@ -20,7 +20,7 @@ exports[`inline render 1`] = `
 
 exports[`normal render 1`] = `
 <pre
-  className="language-jsx sc-bwzfXH eHSmvX"
+  className="sc-bwzfXH eHSmvX language-jsx"
 >
   <code>
     let i = 3
