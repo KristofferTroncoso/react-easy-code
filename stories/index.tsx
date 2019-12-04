@@ -13,7 +13,8 @@ storiesOf('Code', module)
         function Card() {
           return (
             <div className="Card">
-              <h1>This is a Card</h1>
+              <h1 style={{color: 'steelblue'}}>This is a Card</h1>
+              <button onClick={e => console.log("hello")}>Say Hello</button>
             </div>
           )
         }
@@ -28,7 +29,8 @@ storiesOf('Code', module)
         function Card() {
           return (
             <div className="Card">
-              <h1>This is a Card</h1>
+              <h1 style={{color: 'steelblue'}}>This is a Card</h1>
+              <button onClick={e => console.log("hello")}>Say Hello</button>
             </div>
           )
         }
